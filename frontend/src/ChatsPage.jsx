@@ -1,7 +1,7 @@
 // import {MultiChatSocket, MultiChatWindow, useMultiChatLogic} from 'react-chat-engine-advanced';
 // const ChatsPage = (props) => {
 //     const chatProps = useMultiChatLogic(
-//         '2dfcd845-e647-4926-b6d5-6bb3fccb00d1',
+//         '',//projectID
 //         props.user.username, 
 //         props.user.secret
 //     );
@@ -20,7 +20,7 @@ const ChatsPage = (props) => {
     return (
         <div style={{ height: '100vh' }}>
             <PrettyChatWindow
-            projectId='2dfcd845-e647-4926-b6d5-6bb3fccb00d1'
+            projectId=''//projectId
             username={props.user.username}
             secret={props.user.secret}
             style={{ height: '100%'}}
